@@ -10,6 +10,18 @@ class Basics344Test {
         assertEquals(9, Basics344.pickMax(9, 2));
         assertEquals(9, Basics344.pickMax(2, 9));
     }
+    @Test
+    void multiplyWorks() {
+        assertEquals(14, Basics344.multiply(2));
+        assertEquals(21, Basics344.multiply(3));
+    }
+
+    @Test
+    void evenWorks() {
+        assertTrue(Basics344.isEven(2));
+        assertFalse(Basics344.isEven(3));
+    }
+
 
     @Test
     void positiveWorks() {
