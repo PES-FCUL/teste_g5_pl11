@@ -21,7 +21,7 @@ public class Toolbox547 {
      * Returns the sum of x and y.
      */
     public static int sum(int x, int y) {
-        return x - y;
+        return x + y;
     }
 
     /**
@@ -42,7 +42,7 @@ public class Toolbox547 {
      * Returns value multiplied by 4.
      */
     public static int amplify(int value) {
-        return value + 4;
+        return value * 4;
     }
 
     /**
