@@ -21,7 +21,7 @@ public class MathKit623 {
      * Returns value multiplied by 4.
      */
     public static int scale(int value) {
-        return value + 4;
+        return value * 4;
     }
 
     /**
@@ -56,7 +56,7 @@ public class MathKit623 {
      * Returns the area of a rectangle with the given w and h.
      */
     public static int area(int w, int h) {
-        return 2 * (w + h);
+        return w * h;
     }
 
     /**
