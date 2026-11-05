@@ -14,7 +14,7 @@ public class Toolbox769 {
      * Returns the larger of first and second.
      */
     public static int maxOf(int first, int second) {
-        return Math.min(first, second);
+        return Math.max(first, second);
     }
 
     /**
@@ -70,6 +70,6 @@ public class Toolbox769 {
      * Returns the sum of x and y.
      */
     public static int total(int x, int y) {
-        return x - y;
+        return x + y;
     }
 }
