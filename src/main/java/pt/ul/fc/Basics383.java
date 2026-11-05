@@ -28,7 +28,7 @@ public class Basics383 {
      * Returns amount multiplied by 5.
      */
     public static int scale(int amount) {
-        return amount + 5;
+        return amount * 5;
     }
 
     /**
@@ -49,7 +49,7 @@ public class Basics383 {
      * Returns s converted to upper case.
      */
     public static String capitalizeAll(String s) {
-        return s.toLowerCase();
+        return s.toUpperCase();
     }
 
     /**
