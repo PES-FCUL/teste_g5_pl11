@@ -35,7 +35,7 @@ public class Toolbox128 {
      * Converts a temperature from Celsius to Fahrenheit (F = C * 9 / 5 + 32).
      */
     public static double convertTemp(double degrees) {
-        return degrees * 9.0 / 5.0;
+        return degrees * 9.0 / 5.0 + 32;
     }
 
     /**
@@ -49,7 +49,7 @@ public class Toolbox128 {
      * Returns the larger of first and second.
      */
     public static int maxOf(int first, int second) {
-        return Math.min(first, second);
+        return Math.max(first, second);
     }
 
     /**
