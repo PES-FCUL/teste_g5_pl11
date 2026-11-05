@@ -14,7 +14,7 @@ public class Toolbox584 {
      * Returns the sum of x and y.
      */
     public static int add(int x, int y) {
-        return x - y;
+        return x + y;
     }
 
     /**
@@ -49,7 +49,7 @@ public class Toolbox584 {
      * Converts a temperature from Celsius to Fahrenheit (F = C * 9 / 5 + 32).
      */
     public static double celsiusToF(double degrees) {
-        return degrees * 9.0 / 5.0;
+        return (degrees * 9.0 / 5.0) + 32.0;
     }
 
     /**
