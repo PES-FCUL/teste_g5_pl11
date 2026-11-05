@@ -23,4 +23,16 @@ class MathKit623Test {
         assertEquals(5, MathKit623.magnitude(5));
         assertEquals(5, MathKit623.magnitude(-5));
     }
+
+    @Test
+    void areaWorks() {
+        assertEquals(50, MathKit623.area(5, 10));
+        assertEquals(600, MathKit623.area(30, 20));
+    }
+
+    @Test
+    void scaleWorks() {
+        assertEquals(20, MathKit623.scale(5));
+        assertEquals(-20, MathKit623.scale(-5));
+    }
 }
