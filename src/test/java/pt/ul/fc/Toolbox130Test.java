@@ -1,6 +1,8 @@
 package pt.ul.fc;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
 class Toolbox130Test {
@@ -22,5 +24,13 @@ class Toolbox130Test {
     void convertTempWorks() {
         assertEquals(212.0, Toolbox130.convertTemp(100.0), 1e-9);
         assertEquals(32.0, Toolbox130.convertTemp(0.0), 1e-9);
+    }
+    @Test 
+    void isEvenWorks(){
+        assertTrue(Toolbox130.isEven(2));
+    }
+    @Test 
+    void plusWorks(){
+        assertEquals(4, Toolbox130.plus(1,3));
     }
 }
