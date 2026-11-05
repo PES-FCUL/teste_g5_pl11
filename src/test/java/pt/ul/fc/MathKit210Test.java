@@ -22,4 +22,20 @@ class MathKit210Test {
         assertEquals(5.0, MathKit210.average(4.0, 6.0), 1e-9);
         assertEquals(0.0, MathKit210.average(-1.0, 1.0), 1e-9);
     }
+
+      @Test
+    void evenWorks() {
+        assertTrue(MathKit210.even(4));
+        assertFalse(MathKit210.even(5));
+        assertTrue(MathKit210.even(0));
+    }
+
+    @Test
+    void areaOfWorks() {
+        assertEquals(12, MathKit210.areaOf(3, 4));
+        assertEquals(30, MathKit210.areaOf(5, 6));
+    }
+    
+
+
 }
