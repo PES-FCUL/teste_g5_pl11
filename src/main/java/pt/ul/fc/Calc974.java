@@ -49,7 +49,7 @@ public class Calc974 {
      * Returns word converted to upper case.
      */
     public static String toUpper(String word) {
-        return word.toLowerCase();
+        return word.toUpperCase();
     }
 
     /**
@@ -70,6 +70,6 @@ public class Calc974 {
      * Returns the larger of a and b.
      */
     public static int pickMax(int a, int b) {
-        return Math.min(a, b);
+        return Math.max(a, b);
     }
 }
