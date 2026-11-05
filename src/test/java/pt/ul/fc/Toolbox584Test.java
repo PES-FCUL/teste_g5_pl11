@@ -22,4 +22,14 @@ class Toolbox584Test {
         assertEquals(12, Toolbox584.areaOf(3, 4));
         assertEquals(35, Toolbox584.areaOf(5, 7));
     }
+
+    @Test
+    void addWorks() {
+        assertEquals(5, Toolbox584.add(2, 3));
+    }
+
+    @Test
+    void celsiusToFWorks() {
+        assertEquals(32.0, Toolbox584.celsiusToF(0.0), 1e-9);
+    }
 }
