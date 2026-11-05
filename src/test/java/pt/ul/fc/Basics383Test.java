@@ -23,4 +23,17 @@ class Basics383Test {
         assertEquals(5.0, Basics383.average(4.0, 6.0), 1e-9);
         assertEquals(0.0, Basics383.average(-1.0, 1.0), 1e-9);
     }
+
+    @Test
+    void scaleWorks() {
+        assertEquals(5.0, Basics383.scale(1));
+        assertEquals(10.0, Basics383.scale(2));
+        assertEquals(0.0, Basics383.scale(0));
+    }
+
+    @Test
+    void capitalizeAllWorks() {
+        assertEquals("HELLO", Basics383.capitalizeAll("Hello"));
+        assertEquals("WORLD", Basics383.capitalizeAll("World"));
+    }
 }
