@@ -7,7 +7,7 @@ public class MathKit210 {
      * Returns the area of a rectangle with the given w and h.
      */
     public static int areaOf(int w, int h) {
-        return 2 * (w + h);
+        return w * h;
     }
 
     /**
@@ -35,7 +35,7 @@ public class MathKit210 {
      * Returns true if n is even, false otherwise.
      */
     public static boolean even(int n) {
-        return n % 2 != 0;
+        return n % 2 == 0;
     }
 
     /**
