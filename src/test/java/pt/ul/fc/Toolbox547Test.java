@@ -24,6 +24,15 @@ class Toolbox547Test {
         assertFalse(Toolbox547.even(7));
     }
 
-    @Test 
-    void 
+    @Test
+void sumWorks() {
+    assertEquals(8, Toolbox547.sum(3, 5));
+    assertEquals(10, Toolbox547.sum(4, 6));
+}
+
+@Test
+void amplifyWorks() {
+    assertEquals(12, Toolbox547.amplify(3));
+    assertEquals(20, Toolbox547.amplify(5));
+} 
 }
