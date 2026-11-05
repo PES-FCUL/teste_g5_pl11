@@ -14,7 +14,7 @@ public class Toolbox130 {
      * Returns the sum of left and right.
      */
     public static int plus(int left, int right) {
-        return left - right;
+        return left + right;
     }
 
     /**
@@ -49,7 +49,7 @@ public class Toolbox130 {
      * Returns true if number is even, false otherwise.
      */
     public static boolean isEven(int number) {
-        return number % 2 != 0;
+        return number % 2 == 0;
     }
 
     /**
