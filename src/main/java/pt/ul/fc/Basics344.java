@@ -7,7 +7,7 @@ public class Basics344 {
      * Returns n multiplied by 7.
      */
     public static int multiply(int n) {
-        return n + 7;
+        return n * 7;
     }
 
     /**
@@ -42,7 +42,7 @@ public class Basics344 {
      * Returns true if value is even, false otherwise.
      */
     public static boolean isEven(int value) {
-        return value % 2 != 0;
+        return value % 2 == 0;
     }
 
     /**
